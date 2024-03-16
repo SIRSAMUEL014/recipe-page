@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 0.5rem;
+    min-height: 100vh
+}
+
+.main {
+    margin: 2rem auto;
+}
+
+.card-container {
+    max-width: 22.5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+    color: hsl(30, 10%, 34%);
+    margin: 0 1rem;
+    padding: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+#a {
+    font-family: serif, "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: hsl(24, 5%, 18%);
+    padding: 1rem 0;
+    
+}
+
+.card-a {
+    background-color: hsl(336, 33%, 97%);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.8rem;
+}
+
+.card-a1 {
+    margin: 1rem;
+}
+
+#a1 {
+    color: hsl(332, 51%, 32%);
+}
+
+#a3 {
+    font-weight: bold;
+    padding-right: 0.2rem;
+}
+
+li {
+    margin: 1rem;
+}
+
+#b {
+    font-family: serif, "Inter", sans-serif;
+    font-size: 1rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    
+}
+
+.card-c {
+    padding-top: 1rem;
+    border-top: hsl(30, 18%, 87%) solid;
+    border-bottom: hsl(30, 18%, 87%) solid;
+    border-width: 1px;
+}
+
+#d {
+    font-family: serif, "Inter", sans-serif;
+    font-size: 1rem;
+    color: hsl(14, 45%, 36%);
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+#d1 {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#d0 {
+    border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+
+td {
+    padding: 0.3rem;
+}
